@@ -14,7 +14,7 @@ namespace Bumper
             (11, 20, "Trader 2"),
             };
 
-        public string FormatNID_ENGINE(int number)
+        public string LongShortSL(int number)
         {
             int left = 0, right = ranges.Count - 1;
 
@@ -34,6 +34,7 @@ namespace Bumper
         }
     }
 }
+
 
 
 
